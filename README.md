@@ -26,3 +26,23 @@ npm install
 composer require jeroennoten/laravel-adminlte
 ```
 
+7.  Buka terminal baru & Untuk menjalankan laravel ketik perintah:
+```
+php artisan serve
+```
+8. Buka terminal bar & Jalankan mode development menggunakan perintah:
+```
+npm run dev
+```
+Output :
+```
+VITE v4.2.1  ready in 236 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+
+  LARAVEL v10.5.1  plugin v0.7.4
+
+  ➜  APP_URL: http://localhost
+```
