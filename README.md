@@ -61,3 +61,12 @@ DB_PASSWORD=
 ```
 php artisan  migrate
 ```
+11. Install adminlte dengan perintah:
+```
+php artisan adminlte:install --type=full
+```
+
+12. Install plugins dengan perintah:
+```
+php artisan adminlte:plugins install
+```
