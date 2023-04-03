@@ -46,3 +46,18 @@ VITE v4.2.1  ready in 236 ms
 
   ➜  APP_URL: http://localhost
 ```
+
+9. Edit file .env dan atur database seperti dibawah:
+```
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=crud_laravel
+DB_USERNAME=root
+DB_PASSWORD=
+```
+10. Lakukan proses migrasi tabel ke database seperti dibawah:
+```
+php artisan  migrate
+```
