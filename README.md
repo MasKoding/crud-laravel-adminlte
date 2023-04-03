@@ -11,5 +11,18 @@ composer create-project laravel/laravel crud-laravel-adminlte
 ```
     composer require laravel/ui
 ```
+4. Buka terminal & lakukan perintah install bootstrap ui
+```
+php artisan ui bootstrap --auth
+```
 
+5. ketik perintah npm install
+```
+npm install
+```
+6. Install adminlte dengan perintah:
+
+```
+composer require jeroennoten/laravel-adminlte
+```
 
