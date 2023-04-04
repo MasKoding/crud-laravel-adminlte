@@ -1,3 +1,26 @@
+# Clone Project & Langkah Install
+1. ubah .env.example menjadi .env
+2. ubah konfigurasi database
+3. lakukan perintah composer pada terminal seperti dibawah:
+ ```
+ composer install
+ ```
+4. lakukan perintah generate key pada terminal seperti dibawah:
+```
+php artisan key:generate
+```
+5. jalankan server dengan perintah
+```
+php artisan serve
+```
+6. run npm dengan perintah
+```
+npm run dev
+```
+
+
+
+# Membuat Project Baru
 # Installasi Laravel
 1. Jalankan composer berikut
 ```
@@ -70,3 +93,4 @@ php artisan adminlte:install --type=full
 ```
 php artisan adminlte:plugins install
 ```
+
